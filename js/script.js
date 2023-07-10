@@ -143,6 +143,7 @@ btnContact.addEventListener('click', e => {
 
    contact.setAttribute('data-show-form', 'true');
    contactOverlay.classList.add('overlay--active');
+   btnContact.setAttribute('aria-expanded', true);
 
 });
 
@@ -150,6 +151,7 @@ closeContact.addEventListener('click', e => {
 
    contact.setAttribute('data-show-form', 'false');
    contactOverlay.classList.remove('overlay--active');
+   btnContact.setAttribute('aria-expanded', false);
 
 });
 
@@ -157,6 +159,7 @@ contactOverlay.addEventListener('click', e => {
 
    contact.setAttribute('data-show-form', 'false');
    contactOverlay.classList.remove('overlay--active');
+   btnContact.setAttribute('aria-expanded', false);
 
 });
 

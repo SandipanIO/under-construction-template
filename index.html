@@ -37,7 +37,7 @@
    <!-- Header -->
    <header class="header">
       <div class="header__wrapper">
-         <ul id="social-media" class="social-media" role="list">
+         <ul id="social-media" class="social-media" role="list" aria-label="Social media links">
             <li role="listitem">
                <a href="https://twitter.com/SandipanIO" target="_blank">
                   <img class="social-media__icon" src="images/twitter.svg" alt="Twitter">
@@ -55,7 +55,10 @@
             </li>
          </ul>
          <img class="logo" src="images/logo.svg" alt="Sandipan Mukherjee logo">
-         <button id="btn-contact" class="btn">Contact Me <span>&RightArrow;</span></button>
+         <button id="btn-contact" class="btn" aria-expanded="false" aria-controls="contact-form">
+            Contact Me 
+            <span>&RightArrow;</span>
+         </button>
       </div>
    </header>
    
@@ -107,7 +110,7 @@
                         <!-- Slide 1 -->
                         <li class="splide__slide portfolio-slider__slide">
                            <div class="portfolio-slider__image-box">
-                              <img class="portfolio-slider__image" src="images/faq.png" alt="">
+                              <img class="portfolio-slider__image" src="images/faq.png" alt="FAQ Accordion project">
                            </div>
                            <div class="portfolio-slider__card">
                               <h3 class="portfolio-slider__heading | heading-3">
@@ -122,7 +125,7 @@
                         <!-- Slide 2 -->
                         <li class="splide__slide portfolio-slider__slide">
                            <div class="portfolio-slider__image-box">
-                              <img class="portfolio-slider__image" src="images/sunnyside.png" alt="">
+                              <img class="portfolio-slider__image" src="images/sunnyside.png" alt="Sunnyside landing page">
                            </div>
                            <div class="portfolio-slider__card">
                               <h3 class="portfolio-slider__heading | heading-3">
@@ -137,7 +140,7 @@
                         <!-- Slide 3 -->
                         <li class="splide__slide portfolio-slider__slide">
                            <div class="portfolio-slider__image-box">
-                              <img class="portfolio-slider__image" src="images/coming-soon.png" alt="">
+                              <img class="portfolio-slider__image" src="images/coming-soon.png" alt="Coming soon template">
                            </div>
                            <div class="portfolio-slider__card">
                               <h3 class="portfolio-slider__heading | heading-3">
@@ -160,7 +163,7 @@
 
    <!-- Footer -->
    <footer class="footer">
-      <ul id="footer-social-media" class="footer__social-media" role="list">
+      <ul id="footer-social-media" class="footer__social-media" role="list" aria-label="Social media links">
          <li class="footer__item" role="listitem">
             <a class="link" href="https://twitter.com/SandipanIO" target="_blank">Twitter</a>
          </li>
@@ -174,7 +177,7 @@
    </footer>
 
    <!-- Contact Form -->
-   <div class="contact white-box" data-show-form="false">
+   <div id="contact-form" class="contact white-box" data-show-form="false">
       <button id="contact-close" class="icon-close" aria-label="close contact panel">&times;</button>
       <h2 class="contact__heading | heading-2">
          <span aria-hidden="true">{ </span>

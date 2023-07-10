@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- Google Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+   <!-- Stylesheets -->
+   <link rel="stylesheet" href="css/vendor.css">
+   <link rel="stylesheet" href="css/style.css">
+
+   <title>Sandipan Mukherjee - Freelance Frontend Developer</title>
+</head>
+<body class="preload">
+   <!-- Skip to Main Content Link -->
+   <a href="#main" class="skip-to-main-content">Skip to Main Content</a>
+
+   <!-- Header -->
+   <header class="header">
+      <div class="header__wrapper">
+         <ul id="social-media" class="social-media" role="list">
+            <li role="listitem">
+               <a href="https://twitter.com/SandipanIO" target="_blank">
+                  <img class="social-media__icon" src="images/twitter.svg" alt="Twitter">
+               </a>
+            </li>
+            <li role="listitem">
+               <a href="https://www.instagram.com/sandipanio/" target="_blank">
+                  <img class="social-media__icon" src="images/instagram.svg" alt="Instagram">
+               </a>
+            </li>
+            <li role="listitem">
+               <a href="https://github.com/SandipanIO" target="_blank">
+                  <img class="social-media__icon" src="images/github.svg" alt="GitHub">
+               </a>
+            </li>
+         </ul>
+         <img class="logo" src="images/logo.svg" alt="Sandipan Mukherjee logo">
+         <button id="btn-contact" class="btn">Contact Me <span>&RightArrow;</span></button>
+      </div>
+   </header>
+   
+   <!-- Main -->
+   <main id="main">
+      <div class="container">
+         <!-- Left Column -->
+         <div class="column column__left">
+            <div class="hero">
+               <p class="hero__text">Hello! I'm<span aria-hidden="true">...</span></p>
+               <h1 class="hero__heading | heading-1">
+                  <span aria-hidden="true">{</span> 
+                     Sandipan Mukherjee 
+                  <span aria-hidden="true">}</span>
+               </h1>
+               <p class="hero__content">
+                  I am a frontend developer based in India. My portfolio site is under construction. It'll be live within a few days! Till then, you can check out some of my projects.
+               </p>
+               <div class="countdown">
+                  <div class="countdown__content countdown__days">
+                     00<span>Days</span>
+                  </div>
+                  <div class="countdown__content countdown__hours">
+                     00<span>Hours</span>
+                  </div>
+                  <div class="countdown__content countdown__minutes">
+                     00<span>Minutes</span>
+                  </div>
+                  <div class="countdown__content countdown__seconds">
+                     00<span>Seconds</span>
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+
+         <!-- Right Column -->
+         <div class="column column__right">
+            <!-- Portfolio Slider section -->
+            <div class="portfolio">
+               <h2 id="portfolio-heading" class="portfolio__heading | heading-2 sr-only">
+                  <span aria-hidden="true">{ </span>
+                     Portfolio
+                  <span aria-hidden="true"> }</span>
+               </h2>
+               <div id="portfolio-slider" class="splide portfolio-slider" aria-label="Portfolio slider">
+                  <div class="splide__track portfolio-slider__wrapper">
+                     <ul class="splide__list portfolio-slider__list">
+                        <!-- Slide 1 -->
+                        <li class="splide__slide portfolio-slider__slide">
+                           <div class="portfolio-slider__image-box">
+                              <img class="portfolio-slider__image" src="images/faq.png" alt="">
+                           </div>
+                           <div class="portfolio-slider__card">
+                              <h3 class="portfolio-slider__heading | heading-3">
+                                 FAQ Accordion
+                              </h3>
+                              <p class="portfolio-slider__links">
+                                 <a class="portfolio-slider__link | link" href="https://sandipan-faq-accordion-card.netlify.app/" target="_blank">Demo</a> | 
+                                 <a class="portfolio-slider__link | link" href="https://github.com/SandipanIO/frontend-mentor-projects/blob/main/faq-accordion-card/" target="_blank">GitHub</a>
+                              </p>
+                           </div>
+                        </li>
+                        <!-- Slide 2 -->
+                        <li class="splide__slide portfolio-slider__slide">
+                           <div class="portfolio-slider__image-box">
+                              <img class="portfolio-slider__image" src="images/sunnyside.png" alt="">
+                           </div>
+                           <div class="portfolio-slider__card">
+                              <h3 class="portfolio-slider__heading | heading-3">
+                                 Sunnyside Landing Page
+                              </h3>
+                              <p class="portfolio-slider__links">
+                                 <a class="portfolio-slider__link | link" href="https://sandipan-sunnyside-agency.netlify.app/" target="_blank">Demo</a> | 
+                                 <a class="portfolio-slider__link | link" href="https://github.com/SandipanIO/frontend-mentor-projects/tree/main/sunnyside-agency-landing-page/" target="_blank">GitHub</a>
+                              </p>
+                           </div>
+                        </li>
+                        <!-- Slide 3 -->
+                        <li class="splide__slide portfolio-slider__slide">
+                           <div class="portfolio-slider__image-box">
+                              <img class="portfolio-slider__image" src="images/coming-soon.png" alt="">
+                           </div>
+                           <div class="portfolio-slider__card">
+                              <h3 class="portfolio-slider__heading | heading-3">
+                                 Coming Soon Template
+                              </h3>
+                              <p class="portfolio-slider__links">
+                                 <a class="portfolio-slider__link | link" href="https://sandipan-coming-soon-template.netlify.app/" target="_blank">Demo</a> | 
+                                 <a class="portfolio-slider__link | link" href="https://github.com/SandipanIO/coming-soon-template" target="_blank">GitHub</a>
+                              </p>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+                  <div id="portfolio-slider-index" class="portfolio-slider__index"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </main>
+
+   <!-- Footer -->
+   <footer class="footer">
+      <ul id="footer-social-media" class="footer__social-media" role="list">
+         <li class="footer__item" role="listitem">
+            <a class="link" href="https://twitter.com/SandipanIO" target="_blank">Twitter</a>
+         </li>
+         <li class="footer__item" role="listitem">
+            <a class="link" href="https://www.instagram.com/sandipanio/" target="_blank">Instagram</a>
+         </li>
+         <li class="footer__item" role="listitem">
+            <a class="link" href="https://github.com/SandipanIO" target="_blank">GitHub</a>
+         </li>
+      </ul>
+   </footer>
+
+   <!-- Contact Form -->
+   <div class="contact white-box" data-show-form="false">
+      <button id="contact-close" class="icon-close" aria-label="close contact panel">&times;</button>
+      <h2 class="contact__heading | heading-2">
+         <span aria-hidden="true">{ </span>
+            Contact
+         <span aria-hidden="true"> }</span>
+      </h2>
+      
+      <form method="post" data-netlify="true" netlify-honeypot="extra-field" id="contact__form" class="contact__form">
+         <div class="contact__hidden">
+            <label>
+               Don’t fill this out if you’re human:<input name="extra-field" />
+            </label>
+         </div>
+         
+         <label for="contact__name" class="label">Name</label>
+         <input type="text" name="contact__name" id="contact__name" class="input" required>
+
+         <label for="contact__email" class="label">Email</label>
+         <input type="email" name="contact__email" id="contact__email" class="input" required>
+
+         <label for="contact__message" class="label">Message</label>
+         <textarea name="contact__message" id="contact__message" cols="30" rows="5" class="textarea" required></textarea>
+
+         <button type="submit" id="contact__submit" class="btn btn__black">Send</button>
+
+         <div class="contact__success"></div>
+         <div class="contact__error"></div>
+      </form>
+   </div>
+   <div id="contact-overlay" class="overlay"></div>
+
+   <script src="js/vendor.js"></script>
+   <script src="js/script.js"></script>
+</body>
+</html>

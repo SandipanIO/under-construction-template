@@ -149,8 +149,8 @@ ol[role='list'] {
 }
 
 .column__right {
-   background-image: linear-gradient(to right, rgba(5, 5, 5, 0.95), rgba(8, 8, 8, 0.95));
-   padding-block: calc(80rem / 16) calc(50rem / 16);
+   background-image: linear-gradient(to right, rgb(5, 5, 5), rgb(8, 8, 8));
+   padding-block: calc(80rem / 16) calc(60rem / 16);
 }
 
 .overlay {
@@ -574,9 +574,10 @@ body {
 /* --------------------------------------------------------------------------- */
 
 .footer {
-   background-image: linear-gradient(to right, rgba(19, 106, 138, 0.95), rgba(38, 120, 113, 0.95));
+   background-image: linear-gradient(to right, rgb(5, 5, 5), rgb(8, 8, 8));
    width: 100%;
    padding: 1em 3em;
+   border-top: 1px solid #ccc;
    font-size: var(--fs-15);
 }
 

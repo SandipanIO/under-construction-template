@@ -130,6 +130,7 @@ ol[role='list'] {
    display: grid;
    grid-template-rows: repeat(2, auto);
    grid-template-columns: 100%;
+   overflow: hidden;
 }
 
 .column {

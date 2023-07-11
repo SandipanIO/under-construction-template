@@ -666,5 +666,5 @@ body {
 .contact__hidden {
    display: none;
    visibility: hidden;
-   opacity: none;
+   opacity: 0;
 }

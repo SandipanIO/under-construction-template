@@ -576,9 +576,9 @@ body {
 .footer {
    background-image: linear-gradient(to right, rgb(5, 5, 5), rgb(8, 8, 8));
    width: 100%;
-   padding: 1em 3em;
+   padding: 1.5em 1em;
    border-top: 1px solid #ccc;
-   font-size: var(--fs-15);
+   font-size: var(--fs-14);
 }
 
 @media (min-width: 60em) {

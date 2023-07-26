@@ -35,7 +35,7 @@ window.addEventListener('resize', toggleHeading);
 /* Countdown timer */
 /* ------------------------------------------------------------ */
 
-const launchDate = new Date('July 26, 2023 23:59:59');
+const launchDate = new Date('August 26, 2023 23:59:59');
 
 const daysLeft = document.querySelector('.countdown__days');
 const hoursLeft = document.querySelector('.countdown__hours');

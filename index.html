@@ -5,24 +5,10 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="description" content="Sandipan Mukherjee is a frontend developer based in Durgapur, India. Visit this website to check out some of his projects.">
 
-   <!-- Twitter Card -->
-   <meta name="twitter:card" content="summary_large_image" />
-   <meta name="twitter:site" content="@SandipanIO" />
-   <meta name="twitter:title" content="Sandipan Mukherjee - Freelance frontend developer" />
-   <meta name="twitter:description" content="Sandipan Mukherjee is a frontend developer based in Durgapur, India. Visit this website to check out some of his projects." />
-   <meta name="twitter:image" content="https://sandipan.io/screenshots/sandipan-mukherjee-website.png" />
-
-   <!-- Open Graph -->
-   <meta property="og:type" content="website" />
-   <meta property="og:title" content="Sandipan Mukherjee - Freelance frontend developer" />
-   <meta property="og:description" content="Sandipan Mukherjee is a frontend developer based in Durgapur, India. Visit this website to check out some of his projects." />
-   <meta property="og:url" content="https://sandipan.io" />
-   <meta property="og:image" content="https://sandipan.io/screenshots/sandipan-mukherjee-website.png" />
-
    <!-- Google Fonts -->
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
    <!-- Stylesheets -->
    <link rel="stylesheet" href="css/vendor.css">
@@ -54,7 +40,11 @@
                </a>
             </li>
          </ul>
-         <img class="logo" src="images/logo.svg" alt="Sandipan Mukherjee logo">
+         <p class="logo">
+            <span aria-hidden="true">{ </span> 
+               sandipan.io
+            <span aria-hidden="true"> }</span>
+         </p>
          <button id="btn-contact" class="btn" aria-expanded="false" aria-controls="contact-form">
             Contact Me 
             <span>&RightArrow;</span>
@@ -201,7 +191,7 @@
          <label for="contact__message" class="label">Message</label>
          <textarea name="contact__message" id="contact__message" cols="30" rows="5" class="textarea" required></textarea>
 
-         <button type="submit" id="contact__submit" class="btn btn__black">Send</button>
+         <button type="submit" id="contact__submit" class="btn">Submit</button>
 
          <div class="contact__success"></div>
          <div class="contact__error"></div>
